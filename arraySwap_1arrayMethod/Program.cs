@@ -22,7 +22,7 @@ void Swap(ref int a, ref int b) // первый и последний элеме
     b = temp;
 }
 
-int[] arr = new int[] {1, 2, 3, 4, 5, 6, 7}; // заданный массив
+int[] arr = new int[] { 1, 2, 3, 4, 5, 6, 7 }; // заданный массив
 
 for (int i = 0, j = arr.Length - 1; i < (arr.Length / 2); i++, j--)
 {
