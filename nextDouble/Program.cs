@@ -1,7 +1,7 @@
 ﻿Random rnd = new Random();
 // 1) 
 double d1 = rnd.Next() + rnd.NextDouble(); // находим вещественное 
-Console.WriteLine(d1); // округление, в скобку — до скольких знаков; точность 
+Console.WriteLine(d1); 
 
 // 2)
 int multiplyer = 50;
